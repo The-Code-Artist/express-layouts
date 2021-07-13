@@ -24,4 +24,4 @@ app.get("/about", function (req, res) {
 
 const port = process.env.port || 3000;
 
-app.listen(port, () => { console.info(`App is listening on port: ${port} & DB_USER = ${process.env.DB_USER}`) });
+app.listen(port, () => { console.info(`App is listening on port: ${port}`) });
