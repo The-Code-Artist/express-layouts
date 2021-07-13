@@ -1,0 +1,30 @@
+body { background-color: #eee; }
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 2rem;
+}
+
+header, footer {
+    background-color: ghostwhite;
+    padding: 3rem;
+}
+
+aside { 
+    background-color: #1D1D1D;
+    color: #FFF;
+    width: 28%;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+main { 
+    width: 67%; 
+    margin: 0; 
+    display: inline-block;
+    padding: 0.2rem;
+}

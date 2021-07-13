@@ -15,13 +15,13 @@ app.set("layout", `${__dirname}/views/layouts/layout`);
 
 // Routes.
 app.get('', (req, res) => { 
-    res.render("index");
+    res.render("index", { title: "Home" });
 });
 
 app.get("/about", function (req, res) {
-    res.render("about");
+    res.render("about", { title: "About", layout: "./layouts/sidebar" });
 });
 
 const port = process.env.port || 3000;
 
-app.listen(port, () => { console.info(`App is listening on port: ${port} & DB_USER = ${process.env.DB_USER}}`) });
+app.listen(port, () => { console.info(`App is listening on port: ${port} & DB_USER = ${process.env.DB_USER}`) });
